@@ -1,17 +1,21 @@
 # Password Generator
 
+- [Password Generator](#password-generator)
+  - [Purpose](#purpose)
+  - [Notes](#notes)
+  - [Variables - Mac](#variables---mac)
+  - [Variables - Windows](#variables---windows)
+  - [Example](#example)
+  - [Versions](#versions)
+
 ## Purpose
 
-This will generate a human readable password that can be 
-typed and remembered but is also complex enough so that
-it cannot be practically guessed using password cracker
+This will generate a human readable password that can be typed and remembered but is also complex enough so that it cannot be practically guessed using password cracker
 or similar.
 
 ## Notes
 
-This app depends on https://random-word-api.herokuapp.com
-being up and reachable. If the site goes down than this
-script will fail to work. It will at some point..
+This app depends on https://random-word-api.herokuapp.com being up and reachable. If the site goes down than this script will fail to work. It will at some point..
 
 They all do :(
 
@@ -33,13 +37,14 @@ universally accepted but may need to be adjusted for your use case.
 - **intMinRandNumber** & **intMaxRandNumber**: Set the minimum and maximum range to randomly choose a number from.
 
 
-## Example:
+## Example
 
 So with `7` / `7` / `.` / `1` / `50` you could get the following password
 
 ```
 Tubaist.Placard.Perused.Amotion.Plaints.Copalms.Scutate.11
 ```
+
 ## Versions
 
 - v1 created by chris dot tarricone at gmail dot com 2025
