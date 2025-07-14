@@ -15,7 +15,7 @@ or similar.
 
 ## Notes
 
-This app depends on https://random-word-api.herokuapp.com being up and reachable. If the site goes down than this script will fail to work. It will at some point..
+This app depends on https://random-word-api.herokuapp.com being up and reachable. If the site goes down then this script will fail to work. It will at some point..
 
 They all do :(
 
